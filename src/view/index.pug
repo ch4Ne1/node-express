@@ -1,0 +1,21 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+    body 
+        h1 Ejemplo con el motor de plantilla PUG
+        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos accusantium iusto tempore omnis animi, reiciendis, dolore magnam ipsa expedita architecto, veniam sit. Distinctio impedit officia vel beatae, ipsa repudiandae ex!
+        p=lenguajes
+        ul 
+            each len in lenguajes 
+                li=len
+        table(border=1)
+            each len in lenguajes 
+                tr 
+                    td=len 
+        
+        p=persona.nombre
+        p=persona.Edad
