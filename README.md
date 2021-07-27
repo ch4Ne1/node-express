@@ -28,7 +28,7 @@ git commit -m "Estructura base de NodeJS + Express"
 ```
 ## Asignar un repositorio remoto de githab
 ```
-git remote add origin https://githab.com/ch4Ne1/node-express.git
+git remote add origin https://github.com/ch4Ne1/node-express.git
 ```
 ## Subir al repositorio remoto un github en la rama
 ```
